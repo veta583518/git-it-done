@@ -24,7 +24,7 @@ var getUserRepos = function(user) {
     })
     .catch(function(error) {
         // Notice this '.catch()' getting chained onto the end of the '.then()'
-        alert("Unable to connect ti GitHub");
+        alert("Unable to connect to GitHub");
     });
 };
 // get the value of the form <input> element and send it over to getUserRepos()
